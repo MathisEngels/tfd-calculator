@@ -1,0 +1,1588 @@
+{
+	"251001036": [
+		{
+			"effects": [
+				{
+					"name": "Fire Resistance",
+					"value": 640.8,
+					"flat": true
+				},
+				{
+					"name": "Chill Resistance",
+					"value": 640.8,
+					"flat": true
+				},
+				{
+					"name": "Electric Resistance",
+					"value": 640.8,
+					"flat": true
+				},
+				{
+					"name": "Toxin Resistance",
+					"value": 640.8,
+					"flat": true
+				}
+			]
+		}
+	],
+	"251003002": [
+		{
+			"namePattern": "{0} (<= 50% HP)",
+			"effects": [
+				{
+					"name": "Skill Power Modifier",
+					"value": 30
+				},
+				{
+					"name": "Firearm ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"251003006": [
+		{
+			"namePattern": "{0} (On Charge Sub Attack)",
+			"effects": [
+				{
+					"name": "DEF",
+					"value": 128.2
+				}
+			]
+		}
+	],
+	"251003010": [
+		{
+			"namePattern": "{0} (Jumping)",
+			"effects": [
+				{
+					"name": "Accuracy",
+					"value": 32.1
+				},
+				{
+					"name": "DEF",
+					"value": -32.1
+				}
+			]
+		}
+	],
+	"251003011": [
+		{
+			"namePattern": "{0} (Rolling)",
+			"explanation": "Because there's only a 15% of chance to trigger this effect, AVG = 15% * 26% = 3.9%",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 3.9
+				}
+			]
+		}
+	],
+	"251003012": [
+		{
+			"namePattern": "{0} (Rolling)",
+			"explanation": "Because there's only a 15% of chance to trigger this effect, AVG = 15% * 20% = 3%",
+			"effects": [
+				{
+					"name": "Fire Rate",
+					"value": 3
+				}
+			]
+		}
+	],
+	"251003013": [
+		{
+			"namePattern": "{0} (0% Shield)",
+			"effects": [
+				{
+					"name": "DEF",
+					"value": 128.3
+				}
+			]
+		}
+	],
+	"251003027": [
+		{
+			"namePattern": "{0} (1 stack)",
+			"effects": [
+				{
+					"name": "Skill Power Modifier",
+					"value": 5
+				}
+			]
+		},
+		{
+			"namePattern": "{0} (10 stacks)",
+			"effects": [
+				{
+					"name": "Skill Power Modifier",
+					"value": 50
+				}
+			]
+		}
+	],
+	"251003030": [
+		{
+			"namePattern": "{0} (1 stack)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 7.5
+				},
+				{
+					"name": "Skill Power Modifier",
+					"value": 7.5
+				}
+			]
+		},
+		{
+			"namePattern": "{0} (10 stacks)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 75
+				},
+				{
+					"name": "Skill Power Modifier",
+					"value": 75
+				}
+			]
+		}
+	],
+	"251003033": [
+		{
+			"namePattern": "{0} (Not targetting)",
+			"effects": [
+				{
+					"name": "Skill Power",
+					"value": 24.9
+				}
+			]
+		},
+		{
+			"namePattern": "{0} (Immobilized)",
+			"effects": [
+				{
+					"name": "Skill Power",
+					"value": 49.8
+				}
+			]
+		}
+	],
+	"251003034": [
+		{
+			"namePattern": "{0} (1 stack)",
+			"effects": [
+				{
+					"name": "Skill Power Modifier",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"namePattern": "{0} (10 stacks)",
+			"effects": [
+				{
+					"name": "Skill Power Modifier",
+					"value": 25
+				}
+			]
+		}
+	],
+	"251003036": [
+		{
+			"namePattern": "{0} (Sprinting 10 stacks)",
+			"effects": [
+				{
+					"name": "Skill Cost",
+					"value": -3.3
+				},
+				{
+					"name": "Skill Cooldown",
+					"value": 3.3
+				}
+			]
+		}
+	],
+	"251003037": [
+		{
+			"effects": [
+				{
+					"name": "Skill Cost",
+					"value": -37
+				},
+				{
+					"name": "Skill Power",
+					"value": -40
+				}
+			]
+		}
+	],
+	"252011004": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Fire ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252011005": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Toxic ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252011006": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Electric ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252011009": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Chill ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252013001": [
+		{
+			"namePattern": "{0} (Damaging burning enemies)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252013002": [
+		{
+			"namePattern": "{0} (Attacking Enemies with Frostbite)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252013007": [
+		{
+			"namePattern": "{0} (Attacking Enemies with Poison)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252013008": [
+		{
+			"namePattern": "{0} (Attacking Enemies with Electrocution)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252013009": [
+		{
+			"namePattern": "{0} (Switching weapon)",
+			"effects": [
+				{
+					"name": "Weapon Change Speed",
+					"value": 25
+				},
+				{
+					"name": "DEF",
+					"value": 128.3
+				}
+			]
+		}
+	],
+	"252013011": [
+		{
+			"namePattern": "{0} (3 stacks)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 31.8
+				}
+			]
+		}
+	],
+	"252013017": [
+		{
+			"namePattern": "{0} (Defeating an enemy)",
+			"effects": [
+				{
+					"name": "DEF",
+					"value": 128.2
+				}
+			]
+		}
+	],
+	"252013018": [
+		{
+			"namePattern": "{0} (1 stack)",
+			"effects": [
+				{
+					"name": "Accuracy",
+					"value": -20
+				},
+				{
+					"name": "Firearm ATK",
+					"value": 10
+				}
+			]
+		},
+		{
+			"namePattern": "{0} (10 stacks)",
+			"effects": [
+				{
+					"name": "Accuracy",
+					"value": -20
+				},
+				{
+					"name": "Firearm ATK",
+					"value": 100
+				}
+			]
+		}
+	],
+	"252013019": [
+		{
+			"namePattern": "{0} (1 stack)",
+			"effects": [
+				{
+					"name": "Fire Rate",
+					"value": -10
+				},
+				{
+					"name": "Firearm ATK",
+					"value": 1
+				}
+			]
+		},
+		{
+			"namePattern": "{0} (150 stacks)",
+			"effects": [
+				{
+					"name": "Fire Rate",
+					"value": -10
+				},
+				{
+					"name": "Firearm ATK",
+					"value": 150
+				}
+			]
+		}
+	],
+	"252013021": [
+		{
+			"namePattern": "{0} (0 stack)",
+			"effects": [
+				{
+					"name": "Fire Rate",
+					"value": -20
+				},
+				{
+					"name": "Recoil",
+					"value": -5
+				}
+			]
+		}
+	],
+	"252021004": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Fire ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252021005": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Toxic ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252021006": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Electric ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252021009": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Chill ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252023009": [
+		{
+			"namePattern": "{0} (Attacking Enemies with Poison)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252023010": [
+		{
+			"namePattern": "{0} (Attacking Enemies with Electrocution)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252023011": [
+		{
+			"namePattern": "{0} (Attacking Enemies with Burn)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252023012": [
+		{
+			"namePattern": "{0} (Attacking Enemies with Frostbite)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252023016": [
+		{
+			"namePattern": "{0} (3 stacks)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 31.8
+				}
+			]
+		}
+	],
+	"252023018": [
+		{
+			"namePattern": "{0} (On hit)",
+			"effects": [
+				{
+					"name": "Movement Speed",
+					"value": 10
+				}
+			]
+		}
+	],
+	"252023028": [
+		{
+			"namePattern": "{0} (1 stack)",
+			"effects": [
+				{
+					"name": "Accuracy",
+					"value": -20
+				},
+				{
+					"name": "Firearm ATK",
+					"value": 10
+				}
+			]
+		},
+		{
+			"namePattern": "{0} (10 stacks)",
+			"effects": [
+				{
+					"name": "Accuracy",
+					"value": -20
+				},
+				{
+					"name": "Firearm ATK",
+					"value": 100
+				}
+			]
+		}
+	],
+	"252023029": [
+		{
+			"namePattern": "{0} (Firing, 1 stack)",
+			"effects": [
+				{
+					"name": "Fire Rate",
+					"value": -10
+				},
+				{
+					"name": "Firearm ATK",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"namePattern": "{0} (Firing, 60 stacks)",
+			"effects": [
+				{
+					"name": "Fire Rate",
+					"value": -10
+				},
+				{
+					"name": "Firearm ATK",
+					"value": 90
+				}
+			]
+		}
+	],
+	"252023031": [
+		{
+			"namePattern": "{0} (0 stack)",
+			"effects": [
+				{
+					"name": "Fire Rate",
+					"value": -20
+				},
+				{
+					"name": "Recoil",
+					"value": -5
+				}
+			]
+		}
+	],
+	"252031004": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Fire ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252031005": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Toxic ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252031006": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Electric ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252031009": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Chill ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252033005": [
+		{
+			"namePattern": "{0} (Attacking Enemies with Burn)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252033006": [
+		{
+			"namePattern": "{0} (Attacking Enemies with Frostbite)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252033007": [
+		{
+			"namePattern": "{0} (Attacking Enemies with Poison)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252033008": [
+		{
+			"namePattern": "{0} (Attacking Enemies with Electrocution)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252033009": [
+		{
+			"namePattern": "{0} (Switching weapon)",
+			"effects": [
+				{
+					"name": "Weapon Change Speed",
+					"value": 25
+				},
+				{
+					"name": "DEF",
+					"value": 128.3
+				}
+			]
+		}
+	],
+	"252033013": [
+		{
+			"namePattern": "{0} (Aiming)",
+			"effects": [
+				{
+					"name": "Movement Speed",
+					"value": -30
+				},
+				{
+					"name": "Weak Point DMG",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252033017": [
+		{
+			"namePattern": "{0} (Defeating an enemy)",
+			"effects": [
+				{
+					"name": "DEF",
+					"value": 128.2
+				}
+			]
+		}
+	],
+	"252033021": [
+		{
+			"namePattern": "{0} (0 stack)",
+			"effects": [
+				{
+					"name": "Fire Rate",
+					"value": -20
+				},
+				{
+					"name": "Recoil",
+					"value": -5
+				}
+			]
+		}
+	],
+	"252033038": [
+		{
+			"namePattern": "{0} (1 stack)",
+			"effects": [
+				{
+					"name": "Accuracy",
+					"value": -20
+				},
+				{
+					"name": "Firearm ATK",
+					"value": 10
+				}
+			]
+		},
+		{
+			"namePattern": "{0} (10 stacks)",
+			"effects": [
+				{
+					"name": "Accuracy",
+					"value": -20
+				},
+				{
+					"name": "Firearm ATK",
+					"value": 100
+				}
+			]
+		}
+	],
+	"252033039": [
+		{
+			"namePattern": "{0} (Firing, 1 stack)",
+			"effects": [
+				{
+					"name": "Fire Rate",
+					"value": -10
+				},
+				{
+					"name": "Firearm ATK",
+					"value": 3
+				}
+			]
+		},
+		{
+			"namePattern": "{0} (Firing, 30 stacks)",
+			"effects": [
+				{
+					"name": "Fire Rate",
+					"value": -10
+				},
+				{
+					"name": "Firearm ATK",
+					"value": 90
+				}
+			]
+		}
+	],
+	"252041006": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Fire ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252041007": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Toxic ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252041008": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Electric ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252041012": [
+		{
+			"effects": [
+				{
+					"name": "Convert to Chill ATK",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252043005": [
+		{
+			"namePattern": "{0} (Attacking Enemies with Burn)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252043006": [
+		{
+			"namePattern": "{0} (Attacking Enemies with Frostbite)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252043007": [
+		{
+			"namePattern": "{0} (Attacking Enemies with Poison)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252043008": [
+		{
+			"namePattern": "{0} (Attacking Enemies with Electrocution)",
+			"effects": [
+				{
+					"name": "Firearm ATK",
+					"value": 26
+				}
+			]
+		}
+	],
+	"252043010": [
+		{
+			"namePattern": "{0} (On Weak Point hit)",
+			"effects": [
+				{
+					"name": "Firearm Critical Hit Rate",
+					"value": 45.5
+				},
+				{
+					"name": "Firearm Critical Hit Damage",
+					"value": 59.3
+				}
+			]
+		}
+	],
+	"252043011": [
+		{
+			"namePattern": "{0} (On Weak Point hit)",
+			"effects": [
+				{
+					"name": "Weak Point DMG",
+					"value": 140
+				}
+			]
+		}
+	],
+	"252043014": [
+		{
+			"namePattern": "{0} (Aiming)",
+			"effects": [
+				{
+					"name": "Movement Speed",
+					"value": -30
+				},
+				{
+					"name": "Weak Point DMG",
+					"value": 30
+				}
+			]
+		}
+	],
+	"252043048": [
+		{
+			"namePattern": "{0} (1 stack)",
+			"effects": [
+				{
+					"name": "Accuracy",
+					"value": -20
+				},
+				{
+					"name": "Firearm ATK",
+					"value": 10
+				}
+			]
+		},
+		{
+			"namePattern": "{0} (10 stacks)",
+			"effects": [
+				{
+					"name": "Accuracy",
+					"value": -20
+				},
+				{
+					"name": "Firearm ATK",
+					"value": 100
+				}
+			]
+		}
+	],
+	"252043054": [
+		{
+			"namePattern": "{0} (Defeating an enemy)",
+			"effects": [
+				{
+					"name": "DEF",
+					"value": 120
+				}
+			]
+		}
+	],
+	"253001001": [
+		{
+			"subClass": {
+				"type": "subAttack"
+			}
+		}
+	],
+	"253001002": [
+		{
+			"subClass": {
+				"type": "subAttack"
+			}
+		}
+	],
+	"253001003": [
+		{
+			"subClass": {
+				"type": "subAttack"
+			}
+		}
+	],
+	"253001004": [
+		{
+			"subClass": {
+				"type": "subAttack"
+			}
+		}
+	],
+	"253001005": [
+		{
+			"subClass": {
+				"type": "subAttack"
+			}
+		}
+	],
+	"253003001": [
+		{
+			"subClass": {
+				"type": "subAttack"
+			}
+		}
+	],
+	"253003002": [
+		{
+			"subClass": {
+				"type": "subAttack"
+			}
+		}
+	],
+	"253003003": [
+		{
+			"subClass": {
+				"type": "subAttack"
+			}
+		}
+	],
+	"254001001": [
+		{
+			"supported": true,
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000001", "101000004"]
+			}
+		}
+	],
+	"254001002": [
+		{
+			"supported": true,
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000001", "101000004"]
+			}
+		}
+	],
+	"254001003": [
+		{
+			"supported": true,
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000001", "101000004"]
+			}
+		}
+	],
+	"254001004": [
+		{
+			"supported": true,
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000001", "101000004"]
+			}
+		}
+	],
+	"254002001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000002", "101000007"]
+			}
+		}
+	],
+	"254002002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000002", "101000007"]
+			}
+		}
+	],
+	"254002003": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000002", "101000007"]
+			}
+		}
+	],
+	"254002004": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000002", "101000007"]
+			}
+		}
+	],
+	"254003001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000003", "101000010"]
+			}
+		}
+	],
+	"254003002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000003", "101000010"]
+			}
+		}
+	],
+	"254003003": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000003", "101000010"]
+			}
+		}
+	],
+	"254003004": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000003", "101000010"]
+			}
+		}
+	],
+	"254004001": [
+		{
+			"supported": true,
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000004"]
+			}
+		}
+	],
+	"254004002": [
+		{
+			"supported": true,
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000004"]
+			}
+		}
+	],
+	"254005001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000005"]
+			}
+		}
+	],
+	"254005002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000005"]
+			}
+		}
+	],
+	"254005003": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000005"]
+			}
+		}
+	],
+	"254005004": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000005"]
+			}
+		}
+	],
+	"254006001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000006", "101000019"]
+			}
+		}
+	],
+	"254006002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000006", "101000019"]
+			}
+		}
+	],
+	"254006003": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000006", "101000019"]
+			}
+		}
+	],
+	"254006004": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000006", "101000019"]
+			}
+		}
+	],
+	"254007001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000007"]
+			}
+		}
+	],
+	"254007002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000007"]
+			}
+		}
+	],
+	"254008001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000008"]
+			}
+		}
+	],
+	"254008002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000008"]
+			}
+		}
+	],
+	"254008003": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000008"]
+			}
+		}
+	],
+	"254008004": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000008"]
+			}
+		}
+	],
+	"254009001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000009", "101000020"]
+			}
+		}
+	],
+	"254009002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000009", "101000020"]
+			}
+		}
+	],
+	"254009003": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000009", "101000020"]
+			}
+		}
+	],
+	"254009004": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000009", "101000020"]
+			}
+		}
+	],
+	"254009005": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000020"]
+			}
+		}
+	],
+	"254009006": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000020"]
+			}
+		}
+	],
+	"254010001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000010"]
+			}
+		}
+	],
+	"254010002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000010"]
+			}
+		}
+	],
+	"254011001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000011"]
+			}
+		}
+	],
+	"254011002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000011"]
+			}
+		}
+	],
+	"254011003": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000011"]
+			}
+		}
+	],
+	"254011004": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000011"]
+			}
+		}
+	],
+	"254012001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000018"]
+			}
+		}
+	],
+	"254012002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000018"]
+			}
+		}
+	],
+	"254012003": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000018"]
+			}
+		}
+	],
+	"254012004": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000018"]
+			}
+		}
+	],
+	"254013001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000013", "101000022"]
+			}
+		}
+	],
+	"254013002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000013", "101000022"]
+			}
+		}
+	],
+	"254013003": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000013", "101000022"]
+			}
+		}
+	],
+	"254013004": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000013", "101000022"]
+			}
+		}
+	],
+	"254013005": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000022"]
+			}
+		}
+	],
+	"254013006": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000022"]
+			}
+		}
+	],
+	"254014001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000014"]
+			}
+		}
+	],
+	"254014002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000014"]
+			}
+		}
+	],
+	"254014003": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000014"]
+			}
+		}
+	],
+	"254014004": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000014"]
+			}
+		}
+	],
+	"254015001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000015"]
+			}
+		}
+	],
+	"254015002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000015"]
+			}
+		}
+	],
+	"254015003": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000015"]
+			}
+		}
+	],
+	"254015004": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000015"]
+			}
+		}
+	],
+	"254016001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000016"]
+			}
+		}
+	],
+	"254016002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000016"]
+			}
+		}
+	],
+	"254016003": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000016"]
+			}
+		}
+	],
+	"254016004": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000016"]
+			}
+		}
+	],
+	"254017001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000017"]
+			}
+		}
+	],
+	"254017002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000017"]
+			}
+		}
+	],
+	"254017003": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000017"]
+			}
+		}
+	],
+	"254017004": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000017"]
+			}
+		}
+	],
+	"254018001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000012"]
+			}
+		}
+	],
+	"254018002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000012"]
+			}
+		}
+	],
+	"254018003": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000012"]
+			}
+		}
+	],
+	"254018004": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000012"]
+			}
+		}
+	],
+	"254019001": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000019"]
+			}
+		}
+	],
+	"254019002": [
+		{
+			"subClass": {
+				"type": "transcendent",
+				"id": ["101000019"]
+			}
+		}
+	]
+}

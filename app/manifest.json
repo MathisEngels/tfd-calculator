@@ -1,0 +1,8 @@
+{
+	"name": "The First Descendant Calculator",
+	"short_name": "TFD Calculator",
+	"description": "User-friendly tool to calculate TFD damage.",
+	"theme_color": "#ffffff",
+	"background_color": "#ffffff",
+	"display": "standalone"
+}

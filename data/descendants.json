@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Lepic",
+    "crit_damage": 1.3,
+    "crit_rate": 0.15,
+    "skills": [
+      {
+        "skill_name": "Grenade Throw",
+        "reload": 6,
+        "MP_cost": 35,
+        "damage_percentage": 585.4,
+        "range": 5,
+        "max_range_percentage": 200
+      },
+      {
+        "skill_name": "Overclock",
+        "reload": 20,
+        "MP_cost": 24,
+        "effects": [
+          {
+            "label": "Skill Power Modifier",
+            "duration": 20,
+            "value": 20
+          }
+        ],
+        "other_skill_tick_damage_percentage": 115.7,
+        "other_skill_tick_duration": 7,
+        "other_skill_tick_interval": 1
+      },
+      {
+        "skill_name": "Traction Grenade",
+        "reload": 25,
+        "MP_cost": 45,
+        "range": 9,
+        "max_range_percentage": 300,
+        "duration": 2
+      },
+      {
+        "skill_name": "Overkill",
+        "reload": 80,
+        "MP_cost": 40,
+        "damage_percentage": 2760.3,
+        "duration": 8,
+        "tick_MP_cost": 30,
+        "tick_damage_percentage": 43.8,
+        "tick_duration": 4,
+        "tick_interval": 0.5,
+        "tick_range": 5,
+        "tick_max_range_percentage": 200
+      },
+      {
+        "skill_name": "Close Call",
+        "reload": 600
+      }
+    ]
+  },
+  {
+    "name": "Ultimate Lepic",
+    "crit_damage": 1.3,
+    "crit_rate": 0.15,
+    "skills": [
+      {
+        "skill_name": "Grenade Throw",
+        "reload": 6,
+        "MP_cost": 35,
+        "damage_percentage": 585.4,
+        "range": 5,
+        "max_range_percentage": 200
+      },
+      {
+        "skill_name": "Overclock",
+        "reload": 20,
+        "MP_cost": 24,
+        "effects": [
+          {
+            "label": "Skill Power Modifier",
+            "duration": 20,
+            "value": 20
+          }
+        ],
+        "other_skill_tick_damage_percentage": 115.7,
+        "other_skill_tick_duration": 7,
+        "other_skill_tick_interval": 1
+      },
+      {
+        "skill_name": "Traction Grenade",
+        "reload": 25,
+        "MP_cost": 45,
+        "range": 9,
+        "max_range_percentage": 300,
+        "duration": 2
+      },
+      {
+        "skill_name": "Overkill",
+        "reload": 80,
+        "MP_cost": 40,
+        "damage_percentage": 2760.3,
+        "duration": 8,
+        "tick_MP_cost": 30,
+        "tick_damage_percentage": 43.8,
+        "tick_duration": 4,
+        "tick_interval": 0.5,
+        "tick_range": 5,
+        "tick_max_range_percentage": 200
+      },
+      {
+        "skill_name": "Close Call",
+        "reload": 600
+      }
+    ]
+  }
+]
