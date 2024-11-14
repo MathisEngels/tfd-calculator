@@ -3,7 +3,7 @@ import { Effect, ModuleSubClass, SupportedDescendantSkiil } from "./data";
 
 export type Mode = "descendant" | "weapon";
 export type Tier = "ultimate" | "rare" | "normal";
-export type Rarity = "all" & Tier;
+export type Rarity = "all" | Tier;
 export type ExternalComponentType = "auxiliaryPower" | "sensor" | "memory" | "processor";
 export type Arche = "dimension" | "fusion" | "singular" | "tech";
 

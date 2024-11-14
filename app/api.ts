@@ -1,5 +1,6 @@
 "use server";
 
+import { promises as fs } from "fs";
 import { effectParser } from "@/lib/utils";
 import {
 	EnemiesGroup,
@@ -16,7 +17,6 @@ import {
 	Weapon,
 	WeaponStat,
 } from "@/types";
-import { promises as fs } from "fs";
 
 const fetchOptions = { next: { revalidate: 3600 } };
 

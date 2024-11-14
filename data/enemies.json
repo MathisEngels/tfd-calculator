@@ -1,207 +1,207 @@
 [
-  {
-    "label": "Boss",
-    "enemies": [
-      {
-        "name": "Executioner",
-        "resistance": {
-          "def": 146074,
-          "nonA": 146074,
-          "fire": 226707,
-          "electric": 372489,
-          "chill": 146074,
-          "toxic": 67282
-        },
-        "critResistance": {
-          "skill": 25,
-          "gun": 26
-        }
-      },
-      {
-        "name": "Dead Bride",
-        "resistance": {
-          "def": 92430,
-          "nonA": 92430,
-          "fire": 39699,
-          "electric": 92430,
-          "chill": 248637,
-          "toxic": 147564
-        },
-        "critResistance": {
-          "skill": 20,
-          "gun": 20
-        }
-      },
-      {
-        "name": "Devourer",
-        "resistance": {
-          "def": 162232,
-          "nonA": 162232,
-          "fire": 162232,
-          "electric": 75746,
-          "chill": 250324,
-          "toxic": 409149
-        },
-        "critResistance": {
-          "skill": 25,
-          "gun": 27
-        }
-      },
-      {
-        "name": "Pyromaniac",
-        "resistance": {
-          "def": 287000,
-          "nonA": 63645,
-          "fire": 180356,
-          "electric": 104511,
-          "chill": 25424,
-          "toxic": 63645
-        },
-        "critResistance": {
-          "skill": 25,
-          "gun": 20
-        }
-      },
-      {
-        "name": "Swamp Walker",
-        "resistance": {
-          "def": 176346,
-          "nonA": 176346,
-          "fire": 176346,
-          "electric": 83182,
-          "chill": 270956,
-          "toxic": 441218
-        },
-        "critResistance": {
-          "skill": 20,
-          "gun": 20
-        }
-      },
-      {
-        "name": "Obstructer",
-        "resistance": {
-          "def": 182156,
-          "nonA": 182156,
-          "fire": 182156,
-          "electric": 86251,
-          "chill": 279427,
-          "toxic": 454297
-        },
-        "critResistance": {
-          "skill": 20,
-          "gun": 23
-        }
-      },
-      {
-        "name": "Frost Walker",
-        "resistance": {
-          "def": 188058,
-          "nonA": 188058,
-          "fire": 89384,
-          "electric": 188058,
-          "chill": 467512,
-          "toxic": 288011
-        },
-        "critResistance": {
-          "skill": 20,
-          "gun": 20
-        }
-      },
-      {
-        "name": "Molten Fortress",
-        "resistance": {
-          "def": 194054,
-          "nonA": 194054,
-          "fire": 481060,
-          "electric": 296709,
-          "chill": 92564,
-          "toxic": 194054
-        },
-        "critResistance": {
-          "skill": 20,
-          "gun": 27
-        }
-      },
-      {
-        "name": "Gluttony",
-        "resistance": {
-          "def": 194054,
-          "nonA": 194054,
-          "fire": 92564,
-          "electric": 194054,
-          "chill": 481060,
-          "toxic": 296709
-        },
-        "critResistance": {
-          "skill": 60,
-          "gun": 30
-        }
-      },
-      {
-        "name": "Death Stalker",
-        "resistance": {
-          "def": 194054,
-          "nonA": 194054,
-          "fire": 194054,
-          "electric": 92564,
-          "chill": 296709,
-          "toxic": 481060
-        },
-        "critResistance": {
-          "skill": 70,
-          "gun": 30
-        }
-      }
-    ]
-  },
-  {
-    "label": "Mob",
-    "enemies": [
-      {
-        "name": "Immortality",
-        "resistance": {
-          "def": 202,
-          "nonA": 202,
-          "fire": 135,
-          "electric": 202,
-          "chill": 135,
-          "toxic": 101
-        },
-        "critResistance": {
-          "skill": 5,
-          "gun": 5
-        }
-      },
-      {
-        "name": "Truth",
-        "resistance": {
-          "def": 0,
-          "nonA": 0,
-          "fire": 167,
-          "electric": 0,
-          "chill": 167,
-          "toxic": 250
-        },
-        "critResistance": {
-          "skill": 5,
-          "gun": 5
-        }
-      },
-      {
-        "name": "Darkness",
-        "resistance": {
-          "def": 288,
-          "nonA": 288,
-          "fire": 288,
-          "electric": 192,
-          "chill": 144,
-          "toxic": 192
-        },
-        "critResistance": {
-          "skill": 5,
-          "gun": 5
-        }
-      }
-    ]
-  }
+	{
+		"label": "Boss",
+		"enemies": [
+			{
+				"name": "Executioner",
+				"resistance": {
+					"def": 146074,
+					"nonA": 146074,
+					"fire": 226707,
+					"electric": 372489,
+					"chill": 146074,
+					"toxic": 67282
+				},
+				"critResistance": {
+					"skill": 25,
+					"gun": 26
+				}
+			},
+			{
+				"name": "Dead Bride",
+				"resistance": {
+					"def": 92430,
+					"nonA": 92430,
+					"fire": 39699,
+					"electric": 92430,
+					"chill": 248637,
+					"toxic": 147564
+				},
+				"critResistance": {
+					"skill": 20,
+					"gun": 20
+				}
+			},
+			{
+				"name": "Devourer",
+				"resistance": {
+					"def": 162232,
+					"nonA": 162232,
+					"fire": 162232,
+					"electric": 75746,
+					"chill": 250324,
+					"toxic": 409149
+				},
+				"critResistance": {
+					"skill": 25,
+					"gun": 27
+				}
+			},
+			{
+				"name": "Pyromaniac",
+				"resistance": {
+					"def": 287000,
+					"nonA": 63645,
+					"fire": 180356,
+					"electric": 104511,
+					"chill": 25424,
+					"toxic": 63645
+				},
+				"critResistance": {
+					"skill": 25,
+					"gun": 20
+				}
+			},
+			{
+				"name": "Swamp Walker",
+				"resistance": {
+					"def": 176346,
+					"nonA": 176346,
+					"fire": 176346,
+					"electric": 83182,
+					"chill": 270956,
+					"toxic": 441218
+				},
+				"critResistance": {
+					"skill": 20,
+					"gun": 20
+				}
+			},
+			{
+				"name": "Obstructer",
+				"resistance": {
+					"def": 182156,
+					"nonA": 182156,
+					"fire": 182156,
+					"electric": 86251,
+					"chill": 279427,
+					"toxic": 454297
+				},
+				"critResistance": {
+					"skill": 20,
+					"gun": 23
+				}
+			},
+			{
+				"name": "Frost Walker",
+				"resistance": {
+					"def": 188058,
+					"nonA": 188058,
+					"fire": 89384,
+					"electric": 188058,
+					"chill": 467512,
+					"toxic": 288011
+				},
+				"critResistance": {
+					"skill": 20,
+					"gun": 20
+				}
+			},
+			{
+				"name": "Molten Fortress",
+				"resistance": {
+					"def": 194054,
+					"nonA": 194054,
+					"fire": 481060,
+					"electric": 296709,
+					"chill": 92564,
+					"toxic": 194054
+				},
+				"critResistance": {
+					"skill": 20,
+					"gun": 27
+				}
+			},
+			{
+				"name": "Gluttony",
+				"resistance": {
+					"def": 194054,
+					"nonA": 194054,
+					"fire": 92564,
+					"electric": 194054,
+					"chill": 481060,
+					"toxic": 296709
+				},
+				"critResistance": {
+					"skill": 60,
+					"gun": 30
+				}
+			},
+			{
+				"name": "Death Stalker",
+				"resistance": {
+					"def": 194054,
+					"nonA": 194054,
+					"fire": 194054,
+					"electric": 92564,
+					"chill": 296709,
+					"toxic": 481060
+				},
+				"critResistance": {
+					"skill": 70,
+					"gun": 30
+				}
+			}
+		]
+	},
+	{
+		"label": "Mob",
+		"enemies": [
+			{
+				"name": "Immortality",
+				"resistance": {
+					"def": 202,
+					"nonA": 202,
+					"fire": 135,
+					"electric": 202,
+					"chill": 135,
+					"toxic": 101
+				},
+				"critResistance": {
+					"skill": 5,
+					"gun": 5
+				}
+			},
+			{
+				"name": "Truth",
+				"resistance": {
+					"def": 0,
+					"nonA": 0,
+					"fire": 167,
+					"electric": 0,
+					"chill": 167,
+					"toxic": 250
+				},
+				"critResistance": {
+					"skill": 5,
+					"gun": 5
+				}
+			},
+			{
+				"name": "Darkness",
+				"resistance": {
+					"def": 288,
+					"nonA": 288,
+					"fire": 288,
+					"electric": 192,
+					"chill": 144,
+					"toxic": 192
+				},
+				"critResistance": {
+					"skill": 5,
+					"gun": 5
+				}
+			}
+		]
+	}
 ]
