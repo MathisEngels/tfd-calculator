@@ -1,6 +1,7 @@
 "use server";
 
 import { promises as fs } from "fs";
+import path from "path";
 import { effectParser } from "@/lib/utils";
 import {
 	EnemiesGroup,
@@ -79,7 +80,7 @@ export const getEffects = cache(async () => {
 }, "getEffects");
 
 export const getSupportedDescendants = cache(async () => {
-	const file = await fs.readFile(`${dataPath}/descendants.json`, "utf-8");
+	const file = await fs.readFile(path.join(process.cwd(), `${dataPath}/descendants.json`), "utf-8");
 	const supportedDescendant = JSON.parse(file) as SupportedDescendant[];
 
 	const nexonDescendants = (await fetch(`${nexonBaseAPI}/descendant.json`, fetchOptions).then((res) => res.json())) as NexonDescendantResponse;
@@ -129,7 +130,7 @@ export const getModules = cache(async () => {
 
 	const effectList = await getEffects();
 
-	const file = await fs.readFile(`${dataPath}/modules.json`, "utf-8");
+	const file = await fs.readFile(path.join(process.cwd(), `${dataPath}/modules.json`), "utf-8");
 	const moduleSupplementData = JSON.parse(file) as Record<string, ModuleSupplementData[]>;
 
 	const data: Module[] = nexonModules.flatMap((module) => {
@@ -261,7 +262,7 @@ export const getWeapons = cache(async () => {
 }, "getWeapons");
 
 export const getEnemiesGroups = cache(async () => {
-	const file = await fs.readFile(`${dataPath}/enemies.json`, "utf-8");
+	const file = await fs.readFile(path.join(process.cwd(), `${dataPath}/enemies.json`), "utf-8");
 	const enemies = JSON.parse(file) as EnemiesGroup[];
 
 	return enemies;
