@@ -9,6 +9,7 @@ import Burning from "@/components/descendants/Lepic/Burning";
 import { Accordion } from "@/components/ui/accordion";
 import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { skillBasedFireRate } from "@/lib/maths";
 import { getNumberFormatter } from "@/lib/utils";
 import { useBuildStore } from "@/providers/BuildStoreProvider";
@@ -95,16 +96,28 @@ function Overkill({ skill, isBurningActive, burningSkill }: LepicSkill) {
 						<ValueLabel label="Shot Count (Hit)" value={highestFireRate.shotCount} />
 						<ValueLabel label="Excess Time" value={highestFireRate.excessTime} />
 						<ValueLabel label="Total Ticks" value={totalTicks} />
-						<ValueLabel
-							label="Bottlenecked by"
-							value={`${
-								usableDurationFireRate.shotCount === allowedMPDurationFireRate.shotCount
-									? "None"
-									: usableDurationFireRate.shotCount > allowedMPDurationFireRate.shotCount
-										? "Duration"
-										: "MP"
-							} (+${Math.abs(usableDurationFireRate.shotCount - allowedMPDurationFireRate.shotCount)} shot)`}
-						/>
+						<TooltipProvider>
+							<Tooltip>
+								<TooltipTrigger>
+									<ValueLabel
+										label="Bottlenecked by"
+										value={`${
+											usableDurationFireRate.shotCount === allowedMPDurationFireRate.shotCount
+												? "None"
+												: usableDurationFireRate.shotCount > allowedMPDurationFireRate.shotCount
+													? "Duration"
+													: "MP"
+										} (+${Math.abs(usableDurationFireRate.shotCount - allowedMPDurationFireRate.shotCount)} shot)`}
+									/>
+								</TooltipTrigger>
+								<TooltipContent className="max-w-[10vw]">
+									<p className="text-sm">
+										If bottlenecked by MP, this means that if you had <span className="italic">infinite</span> MP, you could get the numbers of shots in
+										parantheses. If bottlenecked by Duration, it's the other way around.
+									</p>
+								</TooltipContent>
+							</Tooltip>
+						</TooltipProvider>
 					</div>
 				</div>
 			</div>
