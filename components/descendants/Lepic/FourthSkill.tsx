@@ -33,7 +33,7 @@ function Overkill({ skill, isBurningActive, burningSkill }: LepicSkill) {
 	const modules = useBuildStore((state) => state.module);
 	const weapon = useBuildStore((state) => state.weapon);
 
-	const [isSharpPrecision, setIsSharpPrecision] = useState(!!modules.weapon.find((module) => module && module.module_name === "Sharp Precision"));
+	const [isSharpPrecision, setIsSharpPrecision] = useState(!!modules.weapon.find((module) => module && module.module_name.includes("Sharp Precision Shot")));
 
 	if (!weapon) return <NoWeaponSelected skill={skill} />;
 
@@ -44,7 +44,8 @@ function Overkill({ skill, isBurningActive, burningSkill }: LepicSkill) {
 
 	const skillCost = descendantEffects.find((effect) => effect.name === "Skill Cost");
 	const skillDurationEffect = descendantEffects.find((effect) => effect.name === "Skill Duration");
-	const fireRateEffect = weaponEffects.find((effect) => effect.name === "Fire Rate")?.value || 0;
+	let fireRateEffect = weaponEffects.find((effect) => effect.name === "Fire Rate")?.value || 0;
+	if (modules.weapon.find((module) => module && module.module_name.includes("Sharp Precision Shot"))) fireRateEffect += 20; // Negate the fire rate reduction from SPS module.
 
 	if (skillDurationEffect) {
 		duration *= 1 - skillDurationEffect.value / 100;
