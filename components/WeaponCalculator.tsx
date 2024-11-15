@@ -30,7 +30,7 @@ export default function WeaponCalculator() {
 
 	if (weaponCritDamage) critDamagePrct *= 1 + weaponCritDamage.value / 100;
 	if (weaponCritRate) critRatePrct *= 1 + weaponCritRate.value / 100;
-	if (fireRate) fireRatePrct *= 1 + fireRate.value / 100;
+  if (fireRate) fireRatePrct = fireRatePrct / (1 - fireRate.value / 100);
 
 	const attributeSumDmg = Object.values(attributesValues).reduce((acc, curr) => acc + curr.value, 0);
 	const totalDamage = physicalDamage + attributeSumDmg;
